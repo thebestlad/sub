@@ -1,0 +1,24 @@
+div{
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: linear-gradient(to right, #9a88ec, #8e8bed);
+color: white;
+width: 500px;
+height: 100px;
+border-radius: 5px;
+font-size: 40px;
+transition-duration: 1s;
+box-shadow: 0px 0px 10px -25px rgba(141, 141, 141, 0.431);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #bb9cff, #9ca3ff);
+}
+div:hover{
+    transform:translate(0px, 20px);
+    box-shadow: 0px 40px 10px -25px rgba(0, 0, 0, 0.431);
+}
